@@ -1,0 +1,95 @@
+.conteiner{
+    margin: 0 auto;
+    width: 960px;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.barra_sup {
+    border-bottom: solid lightgray 1px;
+}
+.barra_sup h1, h2{
+    color: blue;
+    float: left;
+    padding-right: 20px;
+}
+
+.barra_sup input{
+    float: right;
+    margin-top: 30px;
+}
+
+.clear {
+    clear: both;
+}
+.g1 {
+    color: red;
+}
+
+.ge {
+    color: green;
+}
+
+.gshow {
+    color: yellow;
+}
+
+.conteudo {
+    margin-top: 30px;
+}
+
+.conteudo div{
+     margin: 15px;
+}
+
+.destaque {
+    width: 510px;
+    height: 300px;
+    background-color: coral;
+    background: url("model.png") no-repeat ;
+    background-size: cover;
+}
+.destaque p{
+    position: relative;
+    top: 200px;
+    margin: 15px;
+
+}
+
+.noticia {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.noticia img {
+    width: 150px;
+    height: 80px;
+
+}
+.noticia p, li{
+    margin-top: -5px;
+    text-align: justify;
+}
+
+.noticia li{
+    font-size: x-small;
+}
+.conteudo_esq{
+    float: left;
+}
+
+
+.conteudo_dir{
+    width: 360px;
+    float: right;
+}
+
+.conteudo_baixo {
+    padding-top: 30px;
+}
+.conteudo_baixo img{
+    float: left;
+    width: 300px;
+    margin: 5px;
+
+}
