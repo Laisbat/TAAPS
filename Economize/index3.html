@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Economize</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    .jumbotron {
+      background-color: dimgray;
+      color: white;
+    }
+    
+    .jumbotron h1 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+    }
+    
+    .jumbotron h1::first-letter {
+      color: greenyellow;
+    }
+    
+    .h1::first-letter,
+    h2::first-letter,
+    h3::first-letter {
+      color: greenyellow;
+    }
+    
+    .container-fluid label{
+      border-radius: 10px;
+
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="jumbotron container-fluid">
+    <h1>Economize</h1>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="form-group">
+
+        <form>
+          <input type="text">
+
+          <button class="btn btn-primary " type="button">Pesquisar notas</button>
+        </form>
+
+        <h2>Administrador</h2>
+        <h3>Joao da Silva</h3>
+        <label for="nomenota"><h3>Nome da Nota:</h3></label>
+        <input type="text" id="nomenota" placeholder="Nome da nota">
+
+
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+             Tipo da nota <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Positiva</a></li>
+            <li><a href="#">Negativa</a></li>
+            <li><a href="#">Neutra</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-9">
+      <div class="alert alert-danger">
+        <strong>Atenção!</strong> As notas devem ser cadastradas usando linguagem acessível?
+      </div>
+
+
+      <h1>Nota Educativa</h1>
+      <label for="comment"><h2>Conteudo</h2></label>
+      <textarea rows="5" id="comment"></textarea>
+
+      <button type="submit">Limpar</button>
+      <button type="submit">Cadastrar</button>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <style>
+        .jumbotron {
+            background-color: dimgray;
+            color: white;
+        }
+        
+        .jumbotron h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        
+        .jumbotron h1::first-letter {
+            color: greenyellow;
+        }
+        
+        .container label::first-letter {
+            color: greenyellow;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="jumbotron container">
+        <h1>Economize</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="form-group">
+            <label class="control-label" for="nome">Qual é o seu nome?</label>
+            <input type="nome" class="form-control" id="nome" placeholder="Informe seu nome">
+
+            <div class="form-group">
+                <label class="control-label" for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+                <span class="glyphicon glyphicon-envelope"></span>
+            </div>
+            <a href= "https://google.com" class="btn btn-danger">Cancelar</a>
+            <button type="button" class="btn btn-info">
+                Próximo<span class="glyphicon glyphicon-menu-right"></span>
+            </button>
+        </div>
+</body>
+
+</html>
